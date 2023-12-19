@@ -6,6 +6,8 @@ let won = false
 
 // Function
 
+console.log("Welcome To Tic Tac Teo Game");
+
 function clear(){
     const text = document.querySelectorAll('.text');
     text.forEach((value)=>{
