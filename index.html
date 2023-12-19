@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+      </style>
+</head>
+<body>
+    <div class="nav">
+        <h5>Tic Tac Toe Game</h5>
+    </div>
+
+    <div class="gameContainer">
+        <div class="container">
+            <div class="line"></div>
+            <div class="box  bt-0  bl-0"><span class="text"></span></div>
+            <div class="box  bt-0"><span class="text"></span></div>
+            <div class="box  bt-0  br-0"><span class="text"></span></div>
+            <div class="box  bl-0"><span class="text"></span></div>
+            <div class="box "><span class="text"></span></div>
+            <div class="box  br-0"><span class="text"></span></div>
+            <div class="box  bl-0  bb-0"><span class="text"></span></div>
+            <div class="box  bb-0"><span class="text"></span></div>
+            <div class="box  bb-0  br-0"><span class="text"></span></div>
+        </div>
+        <div class="gameinfo">
+            <h2>Welcome To Tic Tac To</h2>
+        </div>
+        <div class="turn">
+            <span class="info">Turn ForX</span>
+            <button id="reset">Reset</button>
+
+        </div>
+        <div class="img">
+            <img src="excited.gif" alt="Excited" class="imgg">
+        </div>
+        <div class="score">
+            <div id="Xscore">
+                <h5>SCORE OF X</h5>
+                <input type="text" id="X" value="0">
+            </div>
+            <div id="Yscore">
+                <h5>SCORE OF Y</h5>
+                <input type="text" id="Y" value="0">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
