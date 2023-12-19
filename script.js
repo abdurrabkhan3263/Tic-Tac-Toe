@@ -8,7 +8,7 @@ let won = false
 
 function clear(){
     const text = document.querySelectorAll('.text');
-    text.forEach((value)=>{
+    text.forEach((value)=>{v
         value.innerHTML = "";
     })
 }
